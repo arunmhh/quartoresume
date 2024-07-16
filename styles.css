@@ -1,17 +1,20 @@
 /* css styles */
-$body-bg-color: #e0f7fa; // Light cyan background color
-$heading-color: #00796b; // Teal heading color
+/* Custom Variables */
+$page-background-color: #f5f5f5; // Light gray background color
+$page-text-color: #333333;       // Dark gray text color
 
-/* Apply Background Color to Body */
+/* Apply Background Color and Text Color to Body */
 body {
-  background-color: $body-bg-color;
-  color: #333; // Default text color
+  background-color: $page-background-color;
+  color: $page-text-color;
+  font-family: "Arial", sans-serif; // Example font family
+  margin: 0;
+  padding: 0;
 }
 
 /* Heading Styles */
 h1, h2, h3, h4, h5, h6 {
-  color: $heading-color;
-  font-family: "Arial", sans-serif; // Example font family
+  color: darken($page-text-color, 20%); // Slightly darker color for headings
 }
 
 /* Additional custom styles can go here */

@@ -40,10 +40,9 @@ format:
     theme:
       light:
         - cosmo
-        #- assets/arun-theme-light.scss
       dark: 
         - cosmo
-        #- assets/arun-theme-dark.scss
+        
     code-link: true
     pagetitle: "{{< meta title >}} | Arun Kumar"
     lightbox: true

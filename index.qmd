@@ -34,8 +34,9 @@ execute:
   warning: false
 
 
-resources:
-  - styles.css
+format:
+  html:
+    styles.css
 ---
 
 ::: {#hero-heading}
