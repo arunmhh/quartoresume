@@ -1,7 +1,7 @@
 ---
 title: "Arun Kumar"
 subtitle: "Cancer biology & Data Analyst,<br> Hannover Medical School"
-image: assets/Arun_Linkedin.jpeg
+image: assets/Arun_about.jpeg
 
 about:
   template: trestles
@@ -33,6 +33,7 @@ header-includes: >
 ---
 
 ::: {#hero-heading}
+<div id="hero-heading" class="text-justify">
 <div class="h1">Hey, I'm happy you're here</div>
 
 Thanks for stopping by!
