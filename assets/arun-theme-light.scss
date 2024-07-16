@@ -1,73 +1,79 @@
 /*-- scss:defaults --*/
 
-// Quarto references:
-// Variables: https://github.com/quarto-dev/quarto-cli/src/resources/formats/html/bootstrap/_bootstrap-variables.scss
-// Rules: https://github.com/quarto-dev/quarto-cli/src/resources/formats/html/bootstrap/_bootstrap-rules.scss
+// Define missing variables with default values
+$spc-primary-light: #f0f8ff; // Example light primary color
+$spc-secondary: #6c757d; // Example secondary color
+$spc-primary: #007bff; // Example primary color
+$spc-secondary-light: lighten($spc-secondary, 20%); // Lightened secondary color
+$spc-accent: #28a745; // Example accent color
+$spc-accent-light: lighten($spc-accent, 20%); // Lightened accent color
+$spc-accent-dark: darken($spc-accent, 20%); // Darkened accent color
+$spc-bg-0: #ffffff; // Example background color
 
 // Colors: Quarto variables
-$primary:                    $spc-primary-light;
-$secondary:                  $spc-secondary;
+$primary: $spc-primary-light;
+$secondary: $spc-secondary;
 // Colors: custom variables
-$primary-dark:               $spc-primary;
-$secondary-light:            $spc-secondary-light;
-$accent:                     $spc-accent; 
-$accent-light:               $spc-accent-light;
-$accent-dark:                $spc-accent-dark;
+$primary-dark: $spc-primary;
+$secondary-light: $spc-secondary-light;
+$accent: $spc-accent;
+$accent-light: $spc-accent-light;
+$accent-dark: $spc-accent-dark;
 
 // Body
-$body-color:                 $primary-dark;
-$body-bg:                    $spc-bg-0;
-$body-secondary:             #6C757D;
+$body-color: $primary-dark;
+$body-bg: $spc-bg-0;
+$body-secondary: #6C757D;
 
 // Fonts
 
 // stylelint-disable-next-line value-keyword-case
-$font-family-sans-serif:     "Red Hat Text", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-sans-serif: "Red Hat Text", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 // $font-family-serif: "Petrona", serif,;
-$headings-font-weight:       400;
+$headings-font-weight: 400;
 
-$font-family-monospace:      "Dank Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-monospace: "Dank Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
-$headings-font-family:       "Petrona";
+$headings-font-family: "Petrona";
 
 // Links
 
-$link-color:                  $secondary;
-$link-decoration:             underline;
-$link-hover-color:            $secondary-light;
-$link-hover-decoration:       none;
+$link-color: $secondary;
+$link-decoration: underline;
+$link-hover-color: $secondary-light;
+$link-hover-decoration: none;
 
 // Tables
 
-$table-border-color:          $primary;
+$table-border-color: $primary;
 $table-group-separator-color: lighten($primary, 40%);
-$table-caption-color:         $body-secondary;
+$table-caption-color: $body-secondary;
 
 // Code blocks
-$code-block-bg:              white;
-$code-block-border:          #ebebeb;
+$code-block-bg: white;
+$code-block-border: #ebebeb;
 
 // Inline code
-$code-color:                  $primary-dark;
-$code-bg:                     $accent-light;
+$code-color: $primary-dark;
+$code-bg: $accent-light;
 
 // Table of contents
-$toc-color:                   $link-color;
-$toc-active-border:           $toc-color;
-$toc-inactive-border:         lighten($toc-color, 50%);
+$toc-color: $link-color;
+$toc-active-border: $toc-color;
+$toc-inactive-border: lighten($toc-color, 50%);
 
 // Navbar icons
-$navbar-fg:                   $secondary;
+$navbar-fg: $secondary;
 
 // Footer text
-$footer-fg:                   $primary;
+$footer-fg: $primary;
 
 // table variable overrides
 $table-group-separator-color: lighten($primary, 25%);
 $table-group-separator-color-lighter: lighten($primary, 50%);
 
 // Miscellaneous (workarounds)
-$gray-200:                    lighten($primary, 60%);
+$gray-200: lighten($primary, 60%);
 
 /*-- scss:rules --*/
 
