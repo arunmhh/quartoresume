@@ -9,13 +9,6 @@ website:
   page-navigation: true
   back-to-top-navigation: true
 
-  comments: 
-    utterances: 
-      repo: spcanelon/silvia 
-      label: utterances
-      theme: body-light
-      issue-term: title
-
   navbar:
     logo: assets/1.png
     tools:
@@ -27,7 +20,7 @@ website:
         href: about/index.qmd
       - text: Blog
         aria-label: "Meeting People Where They R"
-        href: blog/index.qmd
+        href: blog/blog_index.qmd
       #- text: Talks
       #  aria-label: "Invited Talks"
       #  href: talk/index.qmd  

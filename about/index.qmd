@@ -44,7 +44,7 @@ I'm a biologist and data analyst at the Institute of Pharmacology and Toxicogeno
 I work on projects that investigate the kinetic characteristics and signaling pathways of liver cancer stem cells, utilizing advanced techniques such as genome-wide protein microarray, NGS, and PAMGene technology in analysis. My research aims to understand the role of resistant cancer stem cells in the progression and relapse of liver cancer, with a focus on the differences between cancerous and normal hepatocyte populations. Learn more about my research interests in publications.
 
 
-Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
+
 :::
 
 ## About me
