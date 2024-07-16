@@ -39,10 +39,13 @@ resources:
   - assets/index.css
 ---
 
-This is a Quarto website.
+::: {#hero-heading}
+I am a researcher and R/Python educator with a love for youtube community. <br>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+My **research** leverages electronic health record and spatial data to study the intersection of health equity and urban nature. My **community** projects value the partnership between open source tools and data literacy as a way to build power and effect change.
 
-```{r}
-1 + 1
+[Learn more about me →](/about){.about-links .subtitle}
+:::
+
+```{}
 ```
