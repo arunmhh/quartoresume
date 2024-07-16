@@ -22,14 +22,10 @@ listing:
   - id: publication
   - id: project
 
-format: 
-  html: 
-    page-layout: full
-
-header-includes: >
-  <link rel="stylesheet" href="../assets/about.css">
-resources:
-  - ../assets/index.css
+format:
+  html:
+    toc: true
+    css: styles.css
 ---
 
 ::: {#hero-heading}
