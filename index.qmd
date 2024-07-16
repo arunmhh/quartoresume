@@ -1,5 +1,42 @@
 ---
-title: "quartoresume"
+title: "Arun Kumar, M.Sc"
+pagetitle: "Arun Kumar, M.Sc"
+subtitle: "Persuing Ph.D in liver stem cell biology at the Hannvoer medical school"
+image: assets/Arun_Linkedln.jpeg
+
+
+about:
+  template: solana
+  image-width: 28em
+  id: hero-heading
+  links:
+    - icon: github
+      aria-label: GitHub
+      href: https://github.com/arunmhh
+    - icon: linkedin
+      aria-label: "LinkedIn"
+      href: https://linkedin.com/in/arun-kumar-a7896a44/
+    # - text: "{{< fa brands bluesky >}}" 
+    #   aria-label: "Bluesky"
+    #   href: https://bsky.app/profile/silviacanelon.com
+    #- icon: mastodon
+    #  href: https://hachyderm.io/@spcanelon
+    #- text: "{{< ai orcid >}}"
+    #  href: https://orcid.org/0000-0003-1709-1394
+    #- text: "{{< ai google-scholar >}}"
+    #  aria-label: "Google Scholar"
+    #  href: https://scholar.google.com/citations?user=GAzkvpcAAAAJ&hl=en&oi=ao
+page-layout: full
+
+execute: 
+  freeze: false
+  echo: false
+  warning: false
+
+header-includes: >
+  <link rel="stylesheet" href="assets/index.css">
+resources:
+  - assets/index.css
 ---
 
 This is a Quarto website.
