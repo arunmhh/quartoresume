@@ -2,17 +2,62 @@ project:
   type: website
 
 website:
-  title: "quartoresume"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  title: "Arun Kumar"
+  site-url: https://github.com/arunmhh
+  description: "researcher and R/Python educator with a passion for youtube community"
+  favicon: assets/2.png
+  page-navigation: true
+  back-to-top-navigation: true
+  
+  comments: 
+    utterances: 
+      repo: spcanelon/silvia 
+      label: utterances
+      theme: body-light
+      issue-term: title
+  
+   navbar:
+    logo: assets/1.png
+    
+    tools:
+    - icon: github
+      href: https://www.github.com/arunmhh/
+    right:
+      - text: About
+        aria-label: "About Me"
+        href: about/index.qmd
+      - text: Blog
+        aria-label: "Meeting People Where They R"
+        href: blog/index.qmd
+      - text: Talks
+        aria-label: "Invited Talks"
+        href: talk/index.qmd  
+      - text: Publications
+        aria-label: "Publications"
+        href: publication/index.qmd
+      - text: Projects
+        aria-label: "Project Portfolio"
+        href: project/index.qmd
+  
+  page-footer:  
+    left: >-
+     &#169; 2023 Silvia Canelón &#8729; Made with [Quarto](https://quarto.org)
 
-format:
+format: 
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light:
+        - cosmo
+        - assets/arun-theme-light.scss
+       # - assets/arun/colors-light.scss
+       # - assets/arun/fonts.scss
+      dark: 
+        - cosmo
+        - assets/arun-theme-dark.scss
+        #- assets/arun/colors-dark.scss
+    code-link: true
+    pagetitle: "{{< meta title >}} | Arun Kumar"
+    lightbox: true
     toc: true
 
 editor: visual

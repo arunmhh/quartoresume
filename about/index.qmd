@@ -1,0 +1,115 @@
+---
+title: "Arun Kumar"
+subtitle: Cancer biology & Data Analyst,<br>
+Hannover Medical school
+image: assets/Arun_Linkedin.jpeg
+image-alt: "Smiling woman with a tan complexion, dark eyes, and dark long wavy hair styled to one side"
+about:
+  template: trestles
+  image-width: 14em
+  image-shape: rounded
+  id: hero-heading
+  links:
+    - icon: github
+      aria-label: GitHub
+      href: https://github.com/arunmhh
+    - icon: linkedin
+      aria-label: "LinkedIn"
+      href: https://linkedin.com/in/arun-kumar-a7896a44/
+listing: 
+- id: blog
+- id: publication
+- id: project
+  
+format: 
+  html: 
+    page-layout: full
+
+header-includes: >
+  <link rel="stylesheet" href="../assets/about.css">
+resources:
+  - ../assets/about.css
+---
+
+::: {#hero-heading}
+::: h1
+Hey, Welcome to my page
+:::
+
+Thanks for stopping by!
+
+I'm a biologist and data analyst at the pharmacology and toxicogenomic at Hannover medical school. My research interests include applications of molecular biology and genomics in the fields of public and population health.
+
+I work on projects that investigate the kinetic characteristics and signaling pathways of liver cancer stem cells, utilizing advanced techniques such as genome-wide protein microarray, NGS, PAMGene technology in analysis. My research aims to understand the role of resistant cancer stem cells in the progression and relapse of liver cancer, with a focus on the differences between cancerous and normal hepatocyte populations. Learn more about my research interests in publications.
+
+
+:::
+
+## About me
+
+::: grid
+::: {#about-me-1 .g-col-6}
+**Immunologist turned bioinformatics and data analyst, with a keen interest in exploring the intersections of data and visualization.**
+
+
+I enjoy using [R](https://www.r-project.org/about.html)[Python](https://www.python.org/) to wrangle data and create pipelines for ggplot visualizations. I am a certified data analyst through the Google Data Analytics course.
+
+Passionate about data education, statistics and literacy, I believe in empowering communities through knowledge and skills. Stay updated with my R tutorial on my blog and check out my presentations in talks.
+
+:::
+
+::: {#about-me-2 .g-col-6}
+Before joining the Institute of Pharmacology and Toxicogenomics, I served as a Senior Research Fellow at the International Center for Genetic Engineering and Biotechnology in New Delhi, India. Under the esteemed guidance of renowned scientists Dr. K.V.S. Rao and Dr. Pawan Sharma, I mastered recombinant molecular biology techniques, cell culture, and genome-wide microarray analysis, including in-vivo work. This experience significantly enriched my skill set and prepared me for advanced research in pharmacology and toxicogenomics.
+
+
+<li><i class="fa-solid fa-graduation-cap"></i>Ph.D. in Biomedicine ∙ Hannover Medical school ∙ 10/2018 - Present</li>
+
+<li><i class="fa-solid fa-graduation-cap"></i>M.Sc. in Biotechnology ∙ University of Rajasthan,Jaipur, INDIA ∙ 2009</li>
+
+<li><i class="fa-solid fa-graduation-cap"></i>B.Sc. General(Chemistry,Zoology,Botany) ∙ University of Rajasthan,Jaipur, INDIA ∙ 2003</li>
+
+</ul>
+:::
+:::
+
+<!-- end grid -->
+
+## recently ...
+
+::: grid
+::: g-col-3
+#### Blog
+
+::: {#blog}
+:::
+
+[See all →](../blog){.about-links .subtitle}
+:::
+
+::: g-col-3
+#### publication
+
+::: {#publication}
+:::
+
+[See all →](../publication){.about-links .subtitle}
+:::
+
+::: g-col-3
+#### Publications
+
+::: {#publication}
+:::
+
+[See all →](../publication){.about-links .subtitle}
+:::
+
+::: g-col-3
+#### Projects
+
+::: {#project}
+:::
+
+[See all →](../project){.about-links .subtitle}
+:::
+:::
