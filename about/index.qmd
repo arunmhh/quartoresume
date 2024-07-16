@@ -28,8 +28,8 @@ format:
 header-includes: >
   <link rel="stylesheet" href="../assets/about.css">
 
-resources:
-  - ../assets/about.css
+#resources:
+ # - ../assets/about.css
 ---
 
 ::: {#hero-heading}
@@ -44,50 +44,32 @@ I'm a biologist and data analyst at the Institute of Pharmacology and Toxicogeno
 I work on projects that investigate the kinetic characteristics and signaling pathways of liver cancer stem cells, utilizing advanced techniques such as genome-wide protein microarray, NGS, and PAMGene technology in analysis. My research aims to understand the role of resistant cancer stem cells in the progression and relapse of liver cancer, with a focus on the differences between cancerous and normal hepatocyte populations. Learn more about my research interests in publications.
 :::
 
-About me
-::: grid
-::: {#about-me-1 .g-col-6}
-Immunologist turned bioinformatics and data analyst, with a keen interest in exploring the intersections of data and visualization.
+About me ::: grid ::: {#about-me-1 .g-col-6} Immunologist turned bioinformatics and data analyst, with a keen interest in exploring the intersections of data and visualization.
 
 I enjoy using R and Python to wrangle data and create pipelines for ggplot visualizations. I am a certified data analyst through the Google Data Analytics course.
 
-Passionate about data education, statistics, and literacy, I believe in empowering communities through knowledge and skills. Stay updated with my R tutorials on my blog and check out my presentations in talks.
-:::
+Passionate about data education, statistics, and literacy, I believe in empowering communities through knowledge and skills. Stay updated with my R tutorials on my blog and check out my presentations in talks. :::
 
 ::: {#about-me-2 .g-col-6}
 Before joining the Institute of Pharmacology and Toxicogenomics, I served as a Senior Research Fellow at the International Center for Genetic Engineering and Biotechnology in New Delhi, India. Under the esteemed guidance of renowned scientists Dr. K.V.S. Rao and Dr. Pawan Sharma, I mastered recombinant molecular biology techniques, cell culture, and genome-wide microarray analysis, including in-vivo work. This experience significantly enriched my skill set and prepared me for advanced research in pharmacology and toxicogenomics.
 
-<i class="fa-solid fa-graduation-cap"></i> Ph.D. in Biomedicine ∙ Hannover Medical School ∙ 10/2018 - Present
-<i class="fa-solid fa-graduation-cap"></i> M.Sc. in Biotechnology ∙ University of Rajasthan, Jaipur, INDIA ∙ 2009
-<i class="fa-solid fa-graduation-cap"></i> B.Sc. General (Chemistry, Zoology, Botany) ∙ University of Rajasthan, Jaipur, INDIA ∙ 2003
-:::
-:::
-Recently ...
-::: grid
-::: g-col-3
-
-Blog
-::: {#blog}
+<i class="fa-solid fa-graduation-cap"></i> Ph.D. in Biomedicine ∙ Hannover Medical School ∙ 10/2018 - Present <i class="fa-solid fa-graduation-cap"></i> M.Sc. in Biotechnology ∙ University of Rajasthan, Jaipur, INDIA ∙ 2009 <i class="fa-solid fa-graduation-cap"></i> B.Sc. General (Chemistry, Zoology, Botany) ∙ University of Rajasthan, Jaipur, INDIA ∙ 2003
 :::
 
-See all →{.about-links .subtitle}
-:::
+::: Recently ... ::: grid ::: g-col-3
+
+Blog ::: {#blog} :::
+
+See all →{.about-links .subtitle} :::
 
 ::: g-col-3
-
-Publications
-::: {#publication}
+Publications ::: {#publication}
 :::
 
-See all →{.about-links .subtitle}
-:::
+See all →{.about-links .subtitle} :::
 
 ::: g-col-3
-
-Projects
-::: {#project}
+Projects ::: {#project}
 :::
 
-See all →{.about-links .subtitle}
-:::
-:::
+See all →{.about-links .subtitle} ::: :::
