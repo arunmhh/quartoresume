@@ -1,16 +1,23 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Arun Kumar, M.Sc",
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Arun Kumar",
     "section": "",
-    "text": "I am a researcher and R/Python educator with a love for youtube community. \nMy research leverages electronic health record and spatial data to study the intersection of health equity and urban nature. My community projects value the partnership between open source tools and data literacy as a way to build power and effect change.\nLearn more about me →"
+    "text": "Hey, Welcome to my page\n\nThanks for stopping by!\nI’m a biologist and data analyst at the Institute of Pharmacology and Toxicogenomics at Hannover Medical School. My research interests include applications of molecular biology and genomics in the fields of public and population health.\nI work on projects that investigate the kinetic characteristics and signaling pathways of liver cancer stem cells, utilizing advanced techniques such as genome-wide protein microarray, NGS, and PAMGene technology in analysis. My research aims to understand the role of resistant cancer stem cells in the progression and relapse of liver cancer, with a focus on the differences between cancerous and normal hepatocyte populations. Learn more about my research interests in publications.\n\n\n\nAbout me ::: grid ::: {#about-me-1 .g-col-6} Immunologist turned bioinformatics and data analyst, with a keen interest in exploring the intersections of data and visualization.\nI enjoy using R and Python to wrangle data and create pipelines for ggplot visualizations. I am a certified data analyst through the Google Data Analytics course.\nPassionate about data education, statistics, and literacy, I believe in empowering communities through knowledge and skills. Stay updated with my R tutorials on my blog and check out my presentations in talks. :::\n\nBefore joining the Institute of Pharmacology and Toxicogenomics, I served as a Senior Research Fellow at the International Center for Genetic Engineering and Biotechnology in New Delhi, India. Under the esteemed guidance of renowned scientists Dr. K.V.S. Rao and Dr. Pawan Sharma, I mastered recombinant molecular biology techniques, cell culture, and genome-wide microarray analysis, including in-vivo work. This experience significantly enriched my skill set and prepared me for advanced research in pharmacology and toxicogenomics.\n Ph.D. in Biomedicine ∙ Hannover Medical School ∙ 10/2018 - Present  M.Sc. in Biotechnology ∙ University of Rajasthan, Jaipur, INDIA ∙ 2009  B.Sc. General (Chemistry, Zoology, Botany) ∙ University of Rajasthan, Jaipur, INDIA ∙ 2003\n\n::: Recently … ::: grid ::: g-col-3\nBlog ::: {#blog} :::\nSee all →{.about-links .subtitle} :::\n\nPublications ::: {#publication}\n\nSee all →{.about-links .subtitle} :::\n\nProjects ::: {#project}\n\nSee all →{.about-links .subtitle} ::: :::\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Arun Kumar, M.Sc",
+    "section": "",
+    "text": "I am a researcher and R/Python educator with a passion for youtube community.My research leverages molecular biology techniques and genome-wide protein microarray & NGS analysis to study the intricate characteristics and signaling pathways of liver cancer stem cells. My projects value the partnership between advanced molecular tools and data analysis to uncover new insights and drive meaningful change in cancer treatment and patient outcomes.\nLearn more about me →\n\n    \n    \n  \n\n\n\n\n\n\n\n Back to top"
   }
 ]

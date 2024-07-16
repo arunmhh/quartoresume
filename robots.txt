@@ -1,1 +1,1 @@
-Sitemap: https://arunmhh.github.io/quartoresume/sitemap.xml
+Sitemap: https://github.com/arunmhh/sitemap.xml
