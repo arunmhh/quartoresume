@@ -1,9 +1,10 @@
 /*-- scss:defaults --*/
 
 // Define missing variables with default values
-$spc-primary-light: #f0f8ff; // Example light primary color
+$sea-green: #2E8B57; // Sea green color
+$spc-primary-light: $sea-green; // Use sea green as the primary light color
 $spc-secondary: #6c757d; // Example secondary color
-$spc-primary: #007bff; // Example primary color
+$spc-primary: $sea-green; // Use sea green as the primary color
 $spc-secondary-light: lighten($spc-secondary, 20%); // Lightened secondary color
 $spc-accent: #28a745; // Example accent color
 $spc-accent-light: lighten($spc-accent, 20%); // Lightened accent color
