@@ -36,7 +36,8 @@ execute:
 
 format:
   html:
-    styles.css
+    toc: true
+    css: styles.css
 ---
 
 ::: {#hero-heading}
